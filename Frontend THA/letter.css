@@ -1,0 +1,42 @@
+h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    color: darkred;
+    background-color: beige;
+}
+
+p {
+    font-style: oblique;
+    font-size: 19px;
+}
+
+.links {
+    font-style: italic;
+    border: 3px dotted plum;
+    margin: 12px;
+}
+
+img {
+    height: 500px;
+    width: 700px;
+}
+
+li {
+    font: message-box;
+    background-color: lavender;
+}
+
+.sign {
+    float: right;
+    margin: 10px;
+    border: 4px dashed burlywood;
+}
+
+.endline {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+}
