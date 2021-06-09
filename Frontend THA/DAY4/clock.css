@@ -1,0 +1,105 @@
+.main {
+    background-color: #fff;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 175px;
+    left: 524px;
+}
+
+.dot {
+    border: 6px solid #f1498cbb;
+    height: 220px;
+    width: 220px;
+    background-color: #ffbbcc;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color: #fde4e4;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    background-color: #944ffc;
+    border-radius: 50%;
+    position: absolute;
+    top: 106px;
+    left: 106px;
+}
+
+.number12 {
+    color: black;
+    position: absolute;
+    top: 0%;
+    left: 92px;
+}
+
+.number3 {
+    color: black;
+    position: absolute;
+    top: 92px;
+    right: 0px;
+}
+
+.number6 {
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 94px;
+}
+
+.number9 {
+    color: black;
+    position: absolute;
+    top: 92px;
+    left: 0px;
+}
+
+.Hourhand {
+    border-bottom: 7px solid #ee946b;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+    animation: time 6400s infinite linear;
+}
+
+.Minutehand {
+    border-bottom: 6px solid #ccaaff;
+    width: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+    animation: time 600s infinite linear;
+}
+
+.Secondhand {
+    border-bottom: 4px solid #ccddff;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+    animation: time 10s infinite linear;
+}
+
+@keyframes time {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

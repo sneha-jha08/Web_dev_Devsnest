@@ -1,0 +1,4 @@
+border radius=50%
+box-shadow:dena h
+key frame property for animation
+time
