@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet;
+    background-color: rgb(232, 243, 168);
     color: peru;
 }
 
@@ -8,5 +8,5 @@ h1 {
 }
 
 span {
-    font-size: 10px !important;
+    font-size: 10px;
 }
