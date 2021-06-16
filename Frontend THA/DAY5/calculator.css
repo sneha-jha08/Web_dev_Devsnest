@@ -1,0 +1,38 @@
+.main {
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 2px dashed black;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.operations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* .output_buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.input_box {
+    margin: 10px;
+}
+
+#display_onScreen {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: 2px underline darkslateblue;
+    color: darkslategray;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}

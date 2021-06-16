@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./calculator.css">
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="input_box">
+            <input type="text" id="input1">
+            <input type="text" id="input2"></div>
+        <div class="operations">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="divide()">÷</button>
+            <button onclick="multiply()">×</button>
+        </div>
+        <h2 id="display_onScreen"></h2>
+    </div>
+    <script>
+        function add() {
+            var num1 = Number(document.getElementById("input1").value);
+            var num2 = Number(document.getElementById("input2").value);
+
+            var result;
+            result = num1 + num2;
+            console.log(result);
+            document.getElementById("display_onScreen").innerText = "result:: " + result;
+        }
+
+        function subtract() {
+            var num1 = Number(document.getElementById("input1").value);
+            var num2 = Number(document.getElementById("input2").value);
+
+            var result;
+            result = num1 - num2;
+            document.getElementById("display_onScreen").innerText = "result::" + result;
+        }
+
+        function multiply() {
+            var num1 = Number(document.getElementById("input1").value);
+            var num2 = Number(document.getElementById("input2").value);
+
+            var result;
+            result = num1 * num2;
+            document.getElementById("display_onScreen").innerText = "result::" + result;
+        }
+
+        function divide() {
+            var num1 = Number(document.getElementById("input1").value);
+            var num2 = Number(document.getElementById("input2").value);
+
+            var result;
+            result = num1 / num2;
+            document.getElementById("display_onScreen").innerText = "result::" + result;
+        }
+    </script>
+</body>
+
+</html>
