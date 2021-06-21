@@ -113,8 +113,8 @@ console.log(a1.unshift(40)); //Inserts new elements at the start of an array, an
 
 console.log(a1.shift()); //Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
-console.log(a1.isArray()); //tells us if the argument is an array
+console.log(Array.isArray(a1)); //tells us if the argument is an array
 
 e1 = ['this is an array'];
 
-console.log(e1.isArray())
+console.log(Array.isArray(e1))

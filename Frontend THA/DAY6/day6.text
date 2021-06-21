@@ -6,9 +6,7 @@
     console.log(is_array([1, 2, 4, 0]));
     false
     True
-} 
-//answer
-console.log(is_array)
+} )
 
 2: {
     Write a JavaScript
