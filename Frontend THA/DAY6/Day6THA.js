@@ -51,25 +51,34 @@
 
 // //answer5
 
-var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-// b1 = arr1.sort();
-// console.log(b1);
-// var num = b1[0]
-// for (let i = 0; i < b1.length; i++) {
-//     var count = 0
-//     if (b1[i] == b1[i + 1]) {
-//         num = b1[i];
-//         count++;
+arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3, 'b', 'b', 'b', 'a'];
+b1 = arr1.sort(); //sorted array
+console.log(b1); //printed array
+Fre_num = []; //declared an empty array to store the individual numbers in sorted manner
+
+var count = 1; //frequency counter
+frequency_counter = []; //array for frequency counter
+for (let i = 0; i < b1.length; i++) {
+
+    if (b1[i] == b1[i + 1]) //if number== next number
+    {
+        count = count + 1; // increase count by 1
 
 
-//     }
-//     console.log(num, count);
+    } else if (b1[i] != b1[i + 1]) //if not equal then  
+    {
+        frequency_counter.push(count) //push count to frequency_counter
+        Fre_num.push(b1[i]); //push last number to frequency number
+        count = 1 //reset count to 1 
 
-// function mode(arr) {
-//     return
-// }
+    }
+}
+console.log(Fre_num); //print array containing the individual elements
+console.log(frequency_counter);
 
-// console.log(arr1.sort((a, b) =>
-//     arr1.filter(v => v === a).length -
-//     arr1.filter(v => v === b).length
-// ).pop());
+original_fre_count = frequency_counter.map(item => item * 1) //copies Frequency counter array
+    // console.log(original_fre_count);
+a = frequency_counter.sort((a, b) => b - a); // sorting frequency counter array to know the max
+console.log(a);
+original_fre_count.indexOf(a[0]); //gives the element with max frequency 
+console.log(Fre_num[original_fre_count.indexOf(a[0])] + ' ' + a[0] + '(times)');
