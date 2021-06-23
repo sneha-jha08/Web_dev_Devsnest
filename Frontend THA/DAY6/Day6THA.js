@@ -1,24 +1,24 @@
 //answer1::
 
-// var input1 = ['w3resource'];
-// var input2 = [1, 2, 4, 0];
-// console.log(Array.isArray(input1));
-// console.log(Array.isArray(input2));
+var input1 = ['w3resource'];
+var input2 = [1, 2, 4, 0];
+console.log(Array.isArray(input1));
+console.log(Array.isArray(input2));
 
 //answer2
 
-// var input3 = [1, 2, 4, 0];
-// var input4 = [1, 2, [4, 0]];
+var input3 = [1, 2, 4, 0];
+var input4 = [1, 2, [4, 0]];
 
 
 
-// var c = input3.reverse();
-// var d = input4.reverse();
-// console.log(c.reverse());
-// console.log(d.reverse());
+var c = input3.reverse();
+var d = input4.reverse();
+console.log(c.reverse());
+console.log(d.reverse());
 
-// array_Clone([1, 2, 4, 0]);
-// array_Clone([1, 2, [4, 0]]);
+array_Clone([1, 2, 4, 0]);
+array_Clone([1, 2, [4, 0]]);
 
 
 // //answer3::
@@ -28,14 +28,14 @@
 
 // }
 
-// a = [];
-// console.log(a.slice(0, 3));
-// b = [7, 9, 0, -2];
-// console.log(b.slice(0, 3));
-// c = [7, 9, 0, -2];
-// console.log(c.slice(0, 6));
-// d = [7, 9, 0, -2];
-// console.log(d.slice(0, -3));
+a = [];
+console.log(a.slice(0, 3));
+b = [7, 9, 0, -2];
+console.log(b.slice(0, 3));
+c = [7, 9, 0, -2];
+console.log(c.slice(0, 6));
+d = [7, 9, 0, -2];
+console.log(d.slice(0, -3));
 
 
 // // //answer4::
@@ -43,10 +43,10 @@
 // // function answer4(arr[]) {
 // // }
 
-// answer4 = ["Red", "Green", "White", "Black"];
-// console.log(answer4.join(','));
-// console.log(answer4.join(' '));
-// console.log(answer4.join('+'));
+answer4 = ["Red", "Green", "White", "Black"];
+console.log(answer4.join(','));
+console.log(answer4.join(' '));
+console.log(answer4.join('+'));
 
 
 // //answer5
