@@ -69,13 +69,13 @@ anotherPerson['firstName'] = 'jyoti';
 
 // console.log(person.working.basedIn);
 // console.log(Object.keys(person)); //returns all the keys in an object in the form of an array
-// console.log(Object.values(person)); //Returns an array of values of the properties of an object
+console.log(Object.values(person)); //Returns an array of values of the properties of an object
 Object.freeze(person) //now we cant make any changes in the properties of this object
 
 person.city = 'karnal'; // this didnt change the value from faridabad to karnal
 
 // console.log(person.city) //prints faridabad
 
-console.log(Object.getOwnPropertyNames(person)); //same as keys method
+// console.log(Object.getOwnPropertyNames(person)); //same as keys method
 
 //
