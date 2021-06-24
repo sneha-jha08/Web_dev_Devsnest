@@ -23,7 +23,7 @@ Syntax highlighted code block
 ### [Day4](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY4/clock.html)
 ### [Day5](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY5/calculator.html)
 ### [Day6](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY6/Day6THA.js)
-### [Day7](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY7/day7.jsl)
+### [Day7](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY7/day7.js)
 ### [Day8](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY8/day8.html)
 
 <!-- ### Jekyll Themes
