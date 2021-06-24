@@ -1,7 +1,6 @@
 .container {
     display: block;
     position: relative;
-    /* font-size: 22px; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -18,7 +17,6 @@
 
 .container input {
     position: absolute;
-    /* top: auto; */
     opacity: 0;
     cursor: pointer;
     height: 20px;
@@ -59,7 +57,6 @@
 
 .checkmark:after {
     content: "";
-    /* position: absolute; */
     display: none;
 }
 
