@@ -27,7 +27,7 @@ Syntax highlighted code block
 ### [Day8](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY8/day8.html)
 ### [Day9](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY9/Seat_booking.html)
 ### [Day10](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY10/mem_gam.html)
-
+### [Day12](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY12/index.html)
 <!-- ### Jekyll Themes
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneha-jha08/Web_dev_Devsnest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 ### Support or Contact
