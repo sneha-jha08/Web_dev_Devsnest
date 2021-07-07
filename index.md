@@ -17,17 +17,19 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ``` -->
 
-### [Day1](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY1/letter1.html)
-### [Day2](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY2/letter1.html)
-### [Day3](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY3/portfolio.html)
-### [Day4](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY4/clock.html)
-### [Day5](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY5/calculator.html)
-### [Day6](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY6/Day6THA.js)
-### [Day7](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY7/day7.js)
-### [Day8](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY8/day8.html)
-### [Day9](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY9/Seat_booking.html)
-### [Day10](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY10/mem_gam.html)
+### [Day1](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY1/index.html)
+### [Day2](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY2/index.html)
+### [Day3](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY3/index.html)
+### [Day4](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY4/index.html)
+### [Day5](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY5/index.html)
+### [Day6](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY6/script.js)
+### [Day7](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY7/script.js)
+### [Day8](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY8/index.html)
+### [Day9](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY9/index.html)
+### [Day10](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY10/index.html)
 ### [Day12](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY12/index.html)
+### [Day13](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY13/index.html)
+### [Day14](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY14/index.html)
 <!-- ### Jekyll Themes
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneha-jha08/Web_dev_Devsnest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 ### Support or Contact
