@@ -1,0 +1,48 @@
+button {
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #a6bdd5;
+    color: black;
+    box-shadow: 0px 0px 2px 3px #cdccdd;
+    border: 2px solid #ccd1dd;
+    margin: 20px;
+}
+
+.main_body {
+    background-color: #DFEFCA;
+    height: 300px;
+    width: 500px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    border-radius: 20%;
+    box-shadow: 0px 0px 4px 3px #FFFBC2;
+    padding-top: 100px;
+    position: relative;
+    left: 30%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+@keyframes do_a_barrel_roll {
+    0% {
+        transform: rotateZ(-180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.do_a_barrel_roll {
+    animation: do_a_barrel_roll 2s 1 ease-in-out;
+    /* transform-origin: 50%; */
+}
+
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    background-image: linear-gradient(to left, #AFC2D5, #B48B7D);
+}
+
+a {}
