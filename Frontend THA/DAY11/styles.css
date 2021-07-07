@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    /* font-family: 'Sanchez'; */
-    font-family: 'Harry Potter', sans-serif;
-    /* color: maroon; */
-    /* font-weight: bolder; */
 }
 
 header {
@@ -123,6 +119,7 @@ h3 {
 body {
     background-image: url(hp.jpg);
     text-align: center;
+    font-family: 'Harry Potter', sans-serif;
 }
 
 .next,
