@@ -1,0 +1,14 @@
+Day1-   letter
+Day2-   letter modified
+Day3-   portfolio
+Day4-   clock
+Day5-   calculator
+Day6-   js questions
+Day7-   js questions part 2
+Day8-   canvas grid
+Day9-   seat booking system
+Day-10- memory game
+Day-11- quiz
+Day12-  todo-list
+Day13-  github api(fetch api)
+Day14-  barrel roll(event handelers)
