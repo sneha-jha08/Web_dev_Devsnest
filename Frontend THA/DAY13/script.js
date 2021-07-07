@@ -5,7 +5,8 @@ const main_body = document.querySelector('.main_body');
 butn.addEventListener('click', () => {
     let userid = input.value;
     if ((userid == null) || (userid == "")) {
-        return
+        setTimeout(removedetails, 30000);
+        return;
     } else {
         fetch(`https://api.github.com/users/${userid}`).then(res => (res.json())
             .then(data => {
@@ -13,12 +14,12 @@ butn.addEventListener('click', () => {
                     alert("This username is invalid ");
                     input.value = "";
                 } else {
-                    // setTimeout(removedetails(), 5000);
+
+                    setTimeout(removedetails, 30000);
                     displayDetails(data);
-                    console.log("User Login: " + data.login);
-                    console.log("User URL: " + data.html_url);
-                    console.log("UserName: " + data.name);
-                    // input.value = "";
+                    console.log("User Login: " + data);
+
+
 
                 }
             }))
@@ -26,13 +27,13 @@ butn.addEventListener('click', () => {
 
 });
 
-function deleteText() {
-    setTimeout(removedetails(), 1000)
-}
+// function deleteText() {
+//     setTimeout(removedetails(), 10000)
+// }
 
 function removedetails() {
     input.value = "";
-    div.innerHTML = ""
+    div.remove();
     console.log("deleted");
 }
 
@@ -41,4 +42,5 @@ function displayDetails(data) {
     div.classList.add('details');
     div.innerHTML = '<br>' + " UserName: " + data.name + '<br>' + "User Login: " + data.login + '<br>' + "User URL : " + `<a href="${data.html_url}" target="_blank" rel="noopener noreferrer"> Github Profile </a>`;
     main_body.append(div);
+
 }
