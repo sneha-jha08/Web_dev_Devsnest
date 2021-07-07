@@ -27,6 +27,7 @@ Syntax highlighted code block
 ### [Day8](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY8/index.html)
 ### [Day9](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY9/index.html)
 ### [Day10](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY10/index.html)
+### [Day11](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY11/index.html)
 ### [Day12](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY12/index.html)
 ### [Day13](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY13/index.html)
 ### [Day14](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY14/index.html)
