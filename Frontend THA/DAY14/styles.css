@@ -45,4 +45,7 @@ body {
     background-image: linear-gradient(to left, #AFC2D5, #B48B7D);
 }
 
-a {}
+a {
+    text-transform: uppercase;
+    color: orange;
+}
