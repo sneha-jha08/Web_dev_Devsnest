@@ -58,3 +58,10 @@
 // console.log("User Login: " + data.login);
 // console.log("User URL: " + data.html_url);
 // console.log("UserName: " + data.name)
+
+
+
+fetch('https://goquotes-api.herokuapp.com/api/v1/random?count=1').then(res => (res.json()).then(res => {
+    // displayDetails(quotes);
+    console.log(res.quotes[0].text);
+}))

@@ -7,22 +7,22 @@ button {
     color: black;
     box-shadow: 0px 0px 2px 3px #cdccdd;
     border: 2px solid #ccd1dd;
-    margin: 20px;
+    margin-left: 40px;
 }
 
 .main_body {
-    background-color: #DFEFCA;
     height: 300px;
-    width: 500px;
-    flex-wrap: wrap;
-    /* align-items: center; */
+    width: 50%;
     border-radius: 20%;
-    box-shadow: 0px 0px 4px 3px #FFFBC2;
-    padding-top: 100px;
-    position: relative;
-    left: 30%;
+    /* padding-top: 100px; */
+    position: absolute;
+    left: 35%;
     font-size: 20px;
     text-decoration: underline;
+    background-color: #DFEFCA;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* box-shadow: 0px 0px 4px 3px #FFFBC2; */
 }
 
 @keyframes do_a_barrel_roll {
@@ -36,16 +36,25 @@ button {
 
 .do_a_barrel_roll {
     animation: do_a_barrel_roll 2s 1 ease-in-out;
-    /* transform-origin: 50%; */
+    transform-origin: 20%;
 }
 
 body {
     font-family: 'Bitter', serif;
-    text-align: center;
+    /* text-align: center; */
     background-image: linear-gradient(to left, #AFC2D5, #B48B7D);
+    font-size: 15px;
 }
 
 a {
     text-transform: uppercase;
     color: orange;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+h1 {
+    text-align: center;
 }
