@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.showBracketsInRuler": true
+}
