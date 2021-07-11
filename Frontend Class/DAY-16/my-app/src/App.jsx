@@ -13,11 +13,11 @@ return (<div className="app" style={{minHeight:'100px'}}>
 <p>
 Welcome to devsnest!</p> */}
 <Card/>
+{/* <Card/>
 <Card/>
 <Card/>
 <Card/>
-<Card/>
-<Card/>
+<Card/> */}
 </div>);
 };
 
