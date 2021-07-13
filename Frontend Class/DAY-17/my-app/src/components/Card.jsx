@@ -1,12 +1,15 @@
-const Card=()=>{
+const Card=(props)=>{
+ const {img, title}=props;
 return(
-<div>
-    {/* <img src="" alt=""></img> */}
-    <div className="container">
-        <div className="title"><title></title></div>
-        <button></button>
+
+<div className="container">
+    <div className="card">
+    <img src={img} alt=""></img>
+    <div className="title">{title}</div>
+    <button>Download</button>
     </div>
-</div>);
+</div>
+);
 }
 
 export default Card;

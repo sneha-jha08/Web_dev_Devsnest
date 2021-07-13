@@ -1,5 +1,44 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* overflow-x: auto; */
+}
 
 .text{color:aqua;}
-.card{  
-display: inline-block;
+
+.card
+{
+    display: inline-block;
+    /* width: 25%; */
+border: 2px solid black;
+padding: 20px;
+margin:30px;
+
 }
+.card img
+{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.card .title{
+font-size: 1.2rem;
+font-weight: 2;
+margin: 10px 0px;
+}
+.container{
+display: inline-block;
+width: 20%;
+height: 40%;
+
+padding: 10px;}
+
+.card button{padding: 5px;
+background-color: transparent;
+border:1px solid black ;
+border-radius: 5px;
+cursor: pointer;}
+
+.App{overflow-x: auto;}

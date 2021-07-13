@@ -33,6 +33,7 @@ Syntax highlighted code block
 ### [Day14](https://sneha-jha08.github.io/Web_dev_Devsnest/Frontend%20THA/DAY14/index.html)
 ### [Day15](https://day15tha.netlify.app/)
 ### [Day16](https://day16-a-tha.netlify.app)
+### [Day17](https://day-17-tha.netlify.app)
 <!-- ### Jekyll Themes
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneha-jha08/Web_dev_Devsnest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 ### Support or Contact
