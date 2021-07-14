@@ -12,10 +12,7 @@ Day11-  quiz
 Day12-  todo-list
 Day13-  github api(fetch api)
 Day14-  barrel roll(event handelers)
-
-        Started React
-
-Day15-  hello world react app
+Day15-  hello world react app(Started React)
 Day16-  meme card
 day17-  calorie chart
 Day18-  chessboard
