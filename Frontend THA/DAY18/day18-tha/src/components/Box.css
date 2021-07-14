@@ -1,6 +1,20 @@
-.row1 > .Box:nth-child(odd){background-color: black;}
-.row1 > .Box:nth-child(even){background-color: white;}
-.row2 > .Box:nth-child(even){background-color: black;}
-.row2 > .Box:nth-child(odd){background-color: white;}
-.Box{height: 50px;
-width: 50px;}
+.row1>.Box:nth-child(odd) {
+    background-color: black;
+}
+
+.row1>.Box:nth-child(even) {
+    background-color: white;
+}
+
+.row2>.Box:nth-child(even) {
+    background-color: black;
+}
+
+.row2>.Box:nth-child(odd) {
+    background-color: white;
+}
+
+.Box {
+    height: 50px;
+    width: 50px;
+}

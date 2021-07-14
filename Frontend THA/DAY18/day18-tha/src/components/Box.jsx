@@ -1,10 +1,7 @@
-import './Box.css';
+import "./Box.css";
 
 function Box() {
-  return (
-    <div className="Box">
-    </div>
-  );
+  return <div className="Box"></div>;
 }
 
 export default Box;
