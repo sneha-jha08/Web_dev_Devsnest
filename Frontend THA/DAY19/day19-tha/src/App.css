@@ -1,0 +1,12 @@
+.App {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
