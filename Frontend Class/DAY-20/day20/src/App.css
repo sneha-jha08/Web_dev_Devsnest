@@ -1,0 +1,22 @@
+ .App {
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     height: 100vh;
+     flex-direction: column;
+ }
+ 
+ .App button {
+     height: 20px;
+     margin: 0px 10px;
+ }
+ 
+ .App .todo {
+     margin: 10px 0px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: rebeccapurple;
+     font-weight: lighter;
+     font-size: smaller;
+     text-transform: capitalize;
+     display: inline-block;
+ }
