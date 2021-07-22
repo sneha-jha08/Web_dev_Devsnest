@@ -21,14 +21,7 @@ export default function CardsList({menu,setCards}){
             {menu.length !==0 ? (
                 menu.map((item,index)=>{
                     return (
-                        <Card 
-                        title={item[0]}
-                        num={item[1]}
-                        key={index}
-                        index={index}
-                        setCards={setCards}
-                        cards={menu}    
-                        />
+                        <Card title={item[0]} num={item[1]} key={index} index={index} setCards={setCards} cards={menu}/>
                     );
                 })
             ): (
