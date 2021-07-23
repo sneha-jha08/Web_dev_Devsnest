@@ -8,17 +8,20 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="input_box">
-            <input type="text" id="input1">
-            <input type="text" id="input2"></div>
-        <div class="operations">
-            <button onclick="add()">+</button>
-            <button onclick="subtract()">-</button>
-            <button onclick="divide()">÷</button>
-            <button onclick="multiply()">×</button>
+    <h1 style="text-align: center; color: #193F4D; text-decoration: underline;">CALCULATOR</h1>
+    <div class="container">
+        <div class="main">
+            <div class="input_box">
+                <input type="text" id="input1">
+                <input type="text" id="input2"></div>
+            <div class="operations">
+                <button onclick="add()">+</button>
+                <button onclick="subtract()">-</button>
+                <button onclick="divide()">÷</button>
+                <button onclick="multiply()">×</button>
+            </div>
+            <h2 id="display_onScreen"></h2>
         </div>
-        <h2 id="display_onScreen"></h2>
     </div>
     <script>
         function add() {
