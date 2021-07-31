@@ -1,0 +1,29 @@
+.App {
+    height: 50%;
+    width: 50%;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 30%;
+    padding: 0px 10%;
+}
+
+label {
+    margin-bottom: 20px;
+    border: 2px solid;
+    padding: 4px;
+}
+
+input,
+select,
+button {
+    margin: 10px;
+}
+
+span {
+    color: grey;
+    /* font-size: 3px; */
+}
