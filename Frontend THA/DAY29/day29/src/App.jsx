@@ -6,13 +6,13 @@ import Form from "./components/Form";
 import WeatherCard from "./components/WeatherCard";
 import { useSelector } from "react-redux";
 import ToggleTheme from "./components/ToggleTheme";
-import { toggleTheme } from "./actions";
+// import { toggleTheme } from "./actions";
 function App() {
   const theme = useSelector((state) => state.theme);
   console.log(theme);
   return (
-    <div className="App">
-      <h2>Weather App-React Redux</h2>
+    <div className={theme?"App dark":"App"}>
+      <h2 className={theme?"header dark":"header"}>Weather App-React Redux</h2>
       <ToggleTheme />
       <Form />
       <WeatherCard />

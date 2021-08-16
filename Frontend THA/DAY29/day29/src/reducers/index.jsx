@@ -6,7 +6,7 @@ import themeReducer from "./themeReducer";
 const rootReducer = combineReducers({
   place: placeReducer,
   placeData: placeDataReducer,
-theme:themeReducer,
+  theme: themeReducer,
 });
 
 export default rootReducer;

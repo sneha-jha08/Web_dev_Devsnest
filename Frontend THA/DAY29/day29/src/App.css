@@ -1,76 +1,131 @@
-    @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
-    .App {
-        text-align: center;
-    }
-    
-    .form {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-    }
-    
-    .form button {
-        margin: 0px 10px;
-    }
-    
-    .form input {
-        padding: 0px 10px;
-        background-color: #03506F;
-        border: 1.5px solid #A3DDCB;
-        border-radius: 4px;
-    }
-    
-    .card {
-        /* width: 400px; */
-        background-color: #03506F;
-        border: 2px solid #A3DDCB;
-        border-radius: 4px;
-        box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px, rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
-    }
-    
-    .weather {
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    .card img {
-        width: 30%;
-        margin-top: 20px;
-    }
-    
-    .card .place {
-        font-size: 1.2rem;
-        font-weight: 500;
-        font-family: 'Bitter', serif;
-    }
-    
-    .card .temp {
-        font-size: 4rem;
-        font-weight: 500;
-    }
-    
-    body {
-        background-color: #0A043C;
-        /* color: #046582; */
-    }
-    
-    * {
-        color: #FFE3DE;
-    }
-    
-    .whp .title {
-        font-size: 1.2rem;
-    }
-    
-    .whp .data {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-    
-    .whp .data .unit {
-        font-size: 0.8rem;
-    }
-    
-    .whp {
-        margin: 10px 0px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap');
+.App {
+    text-align: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form button {
+    margin: 0px 10px;
+}
+
+.form input {
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
+.card {
+    /* width: 400px; */
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px, rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+
+.weather {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.card .place {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Bitter', serif;
+}
+
+.card .temp {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.whp .title {
+    font-size: 1.2rem;
+}
+
+.whp .data {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.whp .data .unit {
+    font-size: 0.8rem;
+}
+
+.whp {
+    margin: 10px 0px;
+}
+
+.toggle-theme {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+.App {
+    background-color: #CDF0EA;
+}
+
+.form input,
+.form button,
+.card,
+.toggle-theme button {
+    color: #C490E4;
+    background-color: #F9F9F9;
+    border: 2px solid #F6C6EA;
+}
+
+.card {
+    color: #C490E4;
+    background-color: #F9F9F9;
+    border: 2px solid #F6C6EA;
+}
+
+.header {
+    color: #C490E4;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.header.dark {
+    color: #BC6FF1;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.App.dark {
+    background-color: #000000;
+    color: #BC6FF1;
+}
+
+.card.dark {
+    color: #BC6FF1;
+    border: 2px solid #892CDC;
+    background-color: #52057B;
+}
+
+.form.dark input,
+.form.dark button,
+.toggle-theme.dark button {
+    background-color: #52057B;
+    color: #BC6FF1;
+    border: 2px solid #892CDC;
+}
+
+* {
+    font-family: 'Bitter', serif;
+}
+
+.form input,
+.form.dark input {
+    text-transform: capitalize;
+}

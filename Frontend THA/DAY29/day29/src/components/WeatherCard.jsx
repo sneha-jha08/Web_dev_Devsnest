@@ -1,13 +1,13 @@
 import { useSelector } from "react-redux";
 
-
 const WeatherCard = () => {
-  const placeData = useSelector(state=>state.placeData);
+  const placeData = useSelector((state) => state.placeData);
+  const theme = useSelector((state) => state.theme);
   return (
     <div className="conatiner">
       <div className="row">
         <div className="offset-md-4 col-4 offset-md-4 weather">
-          <div className="card">
+          <div className={theme ? "card dark" : "card"}>
             {placeData.location ? (
               <div className="data">
                 <img src={placeData.current.condition.icon} alt="" />
@@ -50,7 +50,7 @@ const WeatherCard = () => {
                 </div>
               </div>
             ) : (
-              <h2> place not found</h2>
+            <h1>Enter Valid Data</h1>
             )}
           </div>
         </div>
@@ -58,6 +58,5 @@ const WeatherCard = () => {
     </div>
   );
 };
-
 
 export default WeatherCard;
