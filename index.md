@@ -45,6 +45,7 @@ Syntax highlighted code block
 ### [Day26](https://day26-tha.netlify.app/)
 ### [Day27](https://day27-tha.netlify.app/)
 ### [Day28](https://day28-tha.netlify.app/)
+### [Day29](https://day29-tha.netlify.app/)
 <!-- ### Jekyll Themes
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneha-jha08/Web_dev_Devsnest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 ### Support or Contact
